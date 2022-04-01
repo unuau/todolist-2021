@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(0deg, #000000 0%, #2e1c2a 100%);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    min-height: 90vh;
+}
+
+.main-content {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    padding: 6px;
+    margin: 4px;
+}
+
+.todo {
+    border-radius: 8px;
+    padding: 6px;
+    min-width: 50rem;
+    margin: 1rem;
+    background: white;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Form {
+    padding: 20px;
+}
+
+.leftodo {
+    margin: 10px;
+}
+
+.buttons {
+    background-image: linear-gradient(0deg, #20141d 0%, #493241 100%);
+    color: white;
+    border: #ffffff;
+    border-style: inset;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+input:checked {
+    margin-left: 25px;
+    margin-right: 10px;
+    border: 1px solid blue;
+  }
